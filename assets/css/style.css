@@ -1,0 +1,14 @@
+.about-skills-list {
+  /* tira qualquer grid/columns/flex que o tema tenha colocado */
+  display: block !important;
+  columns: 1 !important;
+  -webkit-columns: 1 !important;
+  -moz-columns: 1 !important;
+  padding-left: 1.25rem; /* deixa o bullet bonitinho, ajusta se quiser */
+}
+
+.about-skills-list li {
+  width: 100% !important;
+  break-inside: avoid;
+  margin-bottom: 0.25rem; /* espaço entre as linhas, opcional */
+}

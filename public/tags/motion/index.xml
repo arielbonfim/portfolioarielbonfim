@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motion on Hugo Profile</title>
+    <link>http://192.168.1.104:1313/tags/motion/</link>
+    <description>Recent content in Motion on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://192.168.1.104:1313/tags/motion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Video Editing Portfolio</title>
+      <link>http://192.168.1.104:1313/blogs/video-editing-portfolio/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://192.168.1.104:1313/blogs/video-editing-portfolio/</guid>
+      <description>&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&#xA;It’s an honor to share this selection of videos I’ve edited throughout my career. Here you’ll find the pieces that I believe best represent my skills and my style. I hope you enjoy watching them as much as I enjoyed creating them.&#xA;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;My name is Ariel Leon Socio Bonfim, I’m 31 years old, and I live in Teresópolis, Rio de Janeiro, Brazil. I’ve always loved technology, and I’ve worked with audiovisual since I was a teenager. But over the last decade, I studied and worked in completely different fields — from agriculture and engineering to telecommunications and urban transportation — until I finally reconnected with content creation in 2022, when I started working with Diolinux.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,471 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Hugo Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Ariel's portfolio"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/perfil_r.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  color:
+    textColor: "#ffffff"
+    secondaryTextColor: "#6c757d"
+    textLinkColor: "#007bff"
+    backgroundColor: "#153146"
+    secondaryBackgroundColor: "#153146"
+    primaryColor: "#007bff"
+    secondaryColor: "#f8f9fa"
+
+  darkmode:
+    textColor: "#e4e6eb"
+    secondaryTextColor: "#b0b3b8"
+    textLinkColor: "#ffffff"
+    backgroundColor: "#153146"
+    secondaryBackgroundColor: "#153146"
+    primaryColor: "#ffffff"
+    secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Ariel Bonfim" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Ariel."
+    subtitle:  "Your Most Effective Digital Presence"
+    subtitle_small: "Show who you or your brand truly are."
+    content: "I believe in the power of real stories and in the potential of turning experiences and knowledge into a digital presence that inspires, connects, and builds genuine authority with clarity, ethics, and purpose. My mission is to help your brand go beyond the ordinary."
+    image: "/images/perfil.jpg"
+    animateImage: false
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://www.github.com/arielbonfim
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/ariel-leon-socio-bonfim/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/arielsbonfim/
+        - icon: fab fa-whatsapp
+          url: https://wa.me/5521992963658
+  # About
+  about:
+    enable: true
+    title: "Your creative partner behind the scenes."
+    image: "/images/gallery/arvore gigante.jpg"
+    content: |-
+      I collaborate with marketing agencies that need a reliable professional to handle video editing, design, and website creation. I integrate naturally into your workflow, working efficiently and with full attention to detail, deadlines, and brand consistency.
+
+      Working alongside your team, I help bring ideas to life while staying true to your clients’ voice and your agency’s standards.
+    skills:
+      enable: true
+      title: |-
+        I can support your agency with
+      items:
+        - "***Video editing and post-production:*** from YouTube content to Reels, event highlights, and branded videos;"
+        - "***Real-Time Event Coverage:*** editing during live events."
+        - "***Design and visual identity:*** layouts, carousels, and marketing materials aligned with brand guidelines."
+        - "***Website creation and development:*** professional websites and e-commerce solutions that combine functionality, design, and performance."
+    more: |-
+      I work with flexibility, transparency, and professionalism, always focused on delivering high-quality results that reinforce your agency’s standards.
+      
+      **As a Brazilian professional living in Brazil, I bring strong cultural compatibility and a fully aligned time zone, offering commitment, quality, and competitive rates.**
+
+      🎯 Need a reliable creative partner for your next project? Let’s collaborate.
+
+
+  # Experience
+  experience:
+    enable: true
+    title: "Trusted by"
+    items:
+      - company: "Diolinux"
+        companyUrl: "https://diolinux.com.br"
+        jobs:
+          - name: "Multimedia Content Creator"
+            date: "Oct 2022 - present"
+            content: |-
+              
+              <br/>As the lead video editor for [<u>Diolinux Labs</u>](https://www.youtube.com/@Diolinuxlabs), I’m responsible for crafting the videos that reach the biggest Linux tech audience in Brazil.
+
+              I’ve also written over 2,000 articles for the [<u>Diolinux blog</u>](https://diolinux.com.br/autor/arielbonfim), making complex technology easier to understand for millions of readers.
+            #info:
+              #content: Working as a senior software developer
+            #featuredItems:
+              #fontAwesomeIcons:
+                #- icon: fa-brands fa-react
+                  #url: https://react.dev/
+                  #tooltip: Example tooltip content
+                #- icon: fab fa-x-twitter
+                  #url: https://example.com
+                  # tooltip: Example tooltip content
+              #customIcons:
+                #- icon: /images/perfil1.jpg
+                  #url: "https://example.com"
+                  #tooltip: Example tooltip content
+          #- name: "Software Developer"
+            #date: "Jan 2022 - Dec 2023"
+            #content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+
+      - company: "Cuidado da Terra"
+        companyUrl: "https://www.cuidadodaterra.com.br/"
+        jobs:
+          - name: "Digital Content Creator & Web Designer"
+            date: "Mar 2025 - Oct 2025"
+            #info:
+              #content: I worked as a software developer for more than one year in Amazon.
+            content: |
+              A brand rooted in family, values, nature, and natural care. Together, we built and executed a complete Instagram content strategy and launched the Autonomia Materna course, which sold over 100 copies in just two weeks — all organically, without paid ads.
+              I also redesigned their entire website, including a full e-commerce structure, creating a clean and intuitive experience that reflects the essence of both of their brands.
+              In just four months of collaboration:
+              - 3M + organic views
+              - 450K+ accounts reached
+              - 2,600+ external clicks
+              - 16K+ new followers
+
+              All achieved organically.
+
+
+      - company: "Renata Rosa Photography"
+        companyUrl: "https://www.instagram.com/refrosa/"
+        jobs: 
+        - name: "Video Editor & Designer"
+          date: "Jul 2024 - present"
+          #featuredItems:
+            #fontAwesomeIcons:
+              #- icon: fa-brands fa-react
+                #url: https://react.dev/
+              #- icon: fab fa-x-twitter
+                #url: https://example.com
+            #customIcons:
+              #- icon: /images/perfil1.jpg
+                #url: "https://example.com"
+          content: |
+            Renata is a corporate photographer and filmmaker serving major companies and events across the São Paulo region.
+            
+            She sends me her footage and materials so I can create social media posts, institutional videos, Live Event Video Coverage, and Digital Out-of-Home campaigns.
+            
+            As her Video Editor & Designer, I also develop scripts and produce AI-generated voiceovers to enhance her video projects and streamline the production process.
+            
+            Together, we’ve collaborated on projects for companies such as Honda, Zen Head, Cargoland, Suprol, and Rontec, delivering high-quality content that brings each brand’s story to life.
+
+
+      - company: "Marina Godward"
+        companyUrl: "https://www.youtube.com/@MarinaGodward/videos"
+        jobs:
+        - name: "Video Editor"
+          date: "Sep 2025 - present"
+          content: |
+            Marina is a YouTuber and Instagram creator who shares her daily life as a mother, wife, and natural-living enthusiast in Rio de Janeiro. Her content highlights simple, everyday actions that encourage a natural lifestyle and raise environmental awareness.
+            
+            I edit her long-format vlogs for YouTube, helping shape a cohesive narrative and visual style that reflects her calm, authentic approach to storytelling.
+
+
+      - company: "Um Agência"
+        companyUrl: "https://umagencia.com/"
+        jobs: 
+        - name: "Copywriter"
+          date: "Mar 2024 - Dec 2024"
+          content: |
+            I worked as a copywriter for Um Agência, creating captions and on-brand Instagram copy for more than 50 Honda dealerships across Brazil.
+          
+            During my time there, I also developed content for a shopping mall, a healthcare provider, an investment company, and two major truck dealerships — one representing Volkswagen and the other Scania.
+          
+            This experience strengthened my ability to work with different industries, adapt to brand guidelines, and deliver clear and compelling messaging across a wide variety of audiences.
+
+
+  # Education
+  #education:
+    #enable: true
+    # title: "Custom Name"
+    #index: false
+    #items:
+      #- title: "Master of Business Administration"
+        #school:
+          #name: "University of California, Berkeley"
+          #url: "https://example.org"
+        #date: "2013 - 2015"
+        #GPA: "3.8 out of 5.0"
+        #content: |-
+          #Extracurricular Activities
+            #- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            #- Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      #- title: "Bachelor of Science in Computer Science"
+        #school:
+          #name: "Massachusetts Institute of Technology"
+          #url: "https://example.org"
+        #date: "2009 - 2013"
+        #GPA: "3.9 out of 5.0"
+        #content: |-
+          #I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          #- [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          #- Face mask detection using a single convolutional neural network.
+
+          #Extracurricular Activities
+            #- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            #- Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        #featuredLink:
+          #enable: true
+          #name: "My academic record"
+          #url: "https://example.com"
+      #- title: "High School"
+        #school:
+          #name: "Thomas Jefferson High School for Science and Technology."
+          #url: "https://example.org"
+        #GPA: "4.2 out of 5.0"
+        #featuredLink:
+          #enable: true
+          #url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievement.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievement.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievement.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: |
+              Cuidado da Terra
+              
+              Website & E-commerce
+        content: Redesign of the Cuidado da Terra website with full e-commerce integration and a brand-aligned digital experience.
+        image: /images/project_CT.jpg
+        link: https://www.cuidadodaterra.com.br/
+        featured:
+          name: See Details
+          link: https://www.cuidadodaterra.com.br/
+        badges:
+          - "Web Design"
+          - "Backend"
+          - "Multimedia editing"
+        #links:
+          #- icon: fa fa-envelope
+            #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fab fa-github
+            #url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+            #url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Video & Motion Design Showcase
+        content: A curated selection of long-form edits, social cuts, motion graphics, and real-time event coverage created for multiple brands.
+        image: /images/project_video.jpg
+        link: /blogs/video-editing-portfolio/
+        featured:
+          name: View Showcase
+          link: /blogs/video-editing-portfolio/
+        badges:
+          - "Motion Design"
+          - "Video Editing"
+          - "Post-Production"
+        #links:
+          #- icon: fab fa-github
+            #url: https://github.com/gurusabarish/converter
+
+      - title: 2,000+ Tech Articles
+        content: A long-term editorial project with 2,000+ articles that simplify Linux and open-source technology for a wide audience.
+        image: /images/project Diolinux.jpg
+        link: https://diolinux.com.br/autor/arielbonfim
+        featured:
+          name: See Details
+          link: https://diolinux.com.br/autor/arielbonfim
+        badges:
+          - "Technical Writing"
+          - "Linux & Open-Source"
+          - "Image Editing"
+          - "Content Strategy"
+        #links:
+          #- icon: fab fa-github
+            #url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    title: "Contact Me"
+    content: If you’re looking for a reliable partner for your next project, I’d be happy to talk. Send a message and I’ll get back to you shortly.
+    btnName: E-mail Me
+    btnLink: mailto:arielbonfim@gmail.com
+     # NOVOS CAMPOS PARA WHATSAPP
+    whatsappNumber: "5521992963658" # sem + e sem espaços
+    whatsappText: "WhatsApp"
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/arielbonfim
+      linkedin: https://www.linkedin.com/in/ariel-leon-socio-bonfim/
+      #twitter: https://twitter.com
+      instagram: https://www.instagram.com/arielsbonfim/
+      whatsapp: https://wa.me/5521992963658
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "Ariel Bonfim"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

@@ -1,0 +1,12 @@
+.viewer-enabled-image {
+    cursor: zoom-in;
+}
+
+/* Ajuste da galeria - manter proporção da imagem */
+.gallery img,
+.gallery-image img,
+.gallery-item img {
+  width: 100%;
+  height: auto;      /* Isso impede o esticamento */
+  object-fit: contain;
+}
