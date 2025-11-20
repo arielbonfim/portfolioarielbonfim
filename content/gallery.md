@@ -12,7 +12,7 @@ galleryImages:
  - src: /images/gallery/Maria filha e eu no Dedo de Deus.jpg
  - src: /images/gallery/filha e eu no Dedo de Deus.jpg
  - src: /images/gallery/Maria, Azus e eu.jpeg
- - src: /images/gallery/Maria e eu.jpg
+ - src: /images/gallery/Maria e Eu.jpg
 viewer : true
 viewerOptions : {
     title: false
