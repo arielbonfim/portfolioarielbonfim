@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Ariel Bonfim - Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -60,7 +60,7 @@ Menus:
 
 params:
   title: "Ariel's portfolio"
-  description: Text about my cool site
+  description: "I create high-quality videos, websites, and visual content for brands and agencies worldwide."
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/perfil_r.png"
 
