@@ -6,7 +6,8 @@
 .gallery img,
 .gallery-image img,
 .gallery-item img {
-  width: 100%;
-  height: auto;      /* Isso impede o esticamento */
-  object-fit: contain;
+  aspect-ratio: auto !important; /* Remove a proporção forçada */
+  height: auto !important;       /* Permite que a altura seja determinada pelo conteúdo */
+  max-height: none !important;   /* Remove limites de altura se houver */
+  object-fit: contain !important; /* Garante que a imagem inteira seja visível */
 }

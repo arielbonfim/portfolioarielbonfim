@@ -1,0 +1,35 @@
+[33mcommit 11e0be227dec4ba8c700481ca92ad543b2b5655a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Ariel Bonfim <arielbonfim@gmail.com>
+Date:   Sat Nov 22 23:17:02 2025 -0300
+
+    ajuste do resumo do site 3
+
+[33mcommit 9051a56bc3ef7733545792677cb5482402c77359[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ariel Bonfim <arielbonfim@gmail.com>
+Date:   Sat Nov 22 23:15:00 2025 -0300
+
+    ajuste do resumo do site 2
+
+[33mcommit 4517fa409fe57faaaa0bffc385b476974f445322[m
+Author: Ariel Bonfim <arielbonfim@gmail.com>
+Date:   Sat Nov 22 22:53:10 2025 -0300
+
+    ajuste do resumo do site
+
+[33mcommit 1f3e994200dbc8af0a894eae4fb7952950fc216d[m
+Author: Ariel Bonfim <arielbonfim@gmail.com>
+Date:   Fri Nov 21 06:29:55 2025 -0300
+
+    Corrige erro de sintaxe na galeria
+
+[33mcommit 5186de92e061ee186c6710514c3044da3154df1e[m
+Author: Ariel Bonfim <arielbonfim@gmail.com>
+Date:   Thu Nov 20 18:48:27 2025 -0300
+
+    Atualiza gallery.md
+
+[33mcommit 25ef1abb15ac9b96f0c3495a00bda642e87064d7[m
+Author: Ariel Bonfim <arielbonfim@gmail.com>
+Date:   Thu Nov 20 18:27:37 2025 -0300
+
+    Primeiro commit do site Hugo
